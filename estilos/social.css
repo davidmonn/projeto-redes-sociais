@@ -3,9 +3,9 @@
     padding: 0px;
 }
 
-::-webkit-scrollbar {
-    padding: 0px;
-    margin: 0px;
+::-webkit-scrollbar {  /* MUITO IMPORTANTE - USADO PARA ESCONDER AS ROLAGENS LATERAIS */
+    width: 0px;
+    height: 0px;
 }
 
 body {
