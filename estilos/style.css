@@ -41,3 +41,38 @@ iframe#tela {
     width: 267px;
     height: 470px;
 }
+
+/*#redes-sociais {
+    position: absolute;
+}
+
+#redes-sociais img{
+    width: 50px;
+    margin-bottom: 10px;
+    display: block;
+    position: relative;
+    left: 85vw;
+    top: 5vh;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.331);
+}
+
+#redes-sociais img:hover {
+    border: 2px solid white;
+}*/
+
+#redes-sociais {
+    text-align: right;
+}
+
+#redes-sociais img{
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.422);
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover {
+    border: 2px solid white;
+}
