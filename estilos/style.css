@@ -74,5 +74,9 @@ iframe#tela {
 }
 
 #redes-sociais img:hover {
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.644);
+    transform: translate(-7px, -5px);
+    box-shadow: 5px 5px 10px black;
+    /*transition-duration: 0.3s;*/
+    transition: transform .5s, border 0.3s;
 }
